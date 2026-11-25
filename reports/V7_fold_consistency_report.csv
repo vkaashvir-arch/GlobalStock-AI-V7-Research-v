@@ -1,0 +1,5 @@
+Horizon,Model,Total_Comparisons,Folds_Beating_Baseline,Percent_Folds_Beating_Baseline
+1D,LogisticRegression,170,57,33.52941176470588
+1D,RandomForest,170,53,31.176470588235293
+5D,LogisticRegression,170,64,37.64705882352941
+5D,RandomForest,170,68,40.0

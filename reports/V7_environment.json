@@ -1,0 +1,31 @@
+{
+    "Project": "GlobalStock AI V7",
+    "Generated_UTC": "2026-11-25T12:33:30.195333+00:00",
+    "Python_Version": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+    "Platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "Package_Versions": {
+        "pandas": "2.2.3",
+        "numpy": "2.4.6",
+        "scikit-learn": "1.6.1",
+        "matplotlib": "3.10.0",
+        "seaborn": "0.13.2",
+        "scipy": "1.16.3",
+        "yfinance": "0.2.66",
+        "openpyxl": "3.1.5"
+    },
+    "Project_Configuration": {
+        "Assets": 34,
+        "Prediction_Horizons": [
+            "1D",
+            "5D"
+        ],
+        "Walk_Forward_Folds": 5,
+        "Initial_Training_Proportion": 0.5,
+        "Purge_Gap": 5,
+        "Models": [
+            "LogisticRegression",
+            "RandomForest",
+            "Majority_Baseline"
+        ]
+    }
+}
